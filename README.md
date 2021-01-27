@@ -1,8 +1,8 @@
 # IOS 20 大作业
 
-缝合了以下两个功能（两者完全独立）
+缝合了以下两个功能
 
-![](./screenshots/Simulator Screen Shot - iPhone 12 Pro - 1.png)
+<img src="./screenshots/Simulator Screen Shot - iPhone 12 Pro - 1.png">
 
 ## Image Segmentation
 
@@ -16,7 +16,7 @@ mlmodel文件来自：https://developer.apple.com/machine-learning/models/
 
 - 可对图片进行缩放查看
 
-![](./screenshots/Simulator Screen Shot - iPhone 12 Pro - 2.png)
+<img src="./screenshots/Simulator Screen Shot - iPhone 12 Pro - 2.png">
 
 
 
@@ -30,7 +30,7 @@ mlmodel文件来自：https://developer.apple.com/machine-learning/models/
 
 - 可对图片进行缩放查看
 
-![](./screenshots/Simulator Screen Shot - iPhone 12 Pro - 3.png)
+<img src="./screenshots/Simulator Screen Shot - iPhone 12 Pro - 3.png">
 
 
 
