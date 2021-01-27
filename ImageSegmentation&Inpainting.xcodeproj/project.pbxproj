@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		DAEB5E2D25C1CC9600F75ED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E2C25C1CC9600F75ED6 /* AppDelegate.swift */; };
 		DAEB5E2F25C1CC9600F75ED6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E2E25C1CC9600F75ED6 /* SceneDelegate.swift */; };
-		DAEB5E3125C1CC9600F75ED6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E3025C1CC9600F75ED6 /* ViewController.swift */; };
 		DAEB5E3425C1CC9600F75ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEB5E3225C1CC9600F75ED6 /* Main.storyboard */; };
 		DAEB5E3625C1CC9800F75ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAEB5E3525C1CC9800F75ED6 /* Assets.xcassets */; };
 		DAEB5E3925C1CC9800F75ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAEB5E3725C1CC9800F75ED6 /* LaunchScreen.storyboard */; };
+		DAEB5E4B25C1CD4200F75ED6 /* CGImage+ArrayBGRA.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E4225C1CD4200F75ED6 /* CGImage+ArrayBGRA.swift */; };
+		DAEB5E4C25C1CD4200F75ED6 /* SegmentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E4325C1CD4200F75ED6 /* SegmentationViewController.swift */; };
+		DAEB5E4D25C1CD4200F75ED6 /* CGImage&UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E4425C1CD4200F75ED6 /* CGImage&UIImage+Resize.swift */; };
+		DAEB5E4E25C1CD4200F75ED6 /* SegmentClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E4525C1CD4200F75ED6 /* SegmentClass.swift */; };
+		DAEB5E4F25C1CD4200F75ED6 /* DrawingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E4625C1CD4200F75ED6 /* DrawingImageView.swift */; };
+		DAEB5E5025C1CD4200F75ED6 /* InpaintingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E4725C1CD4200F75ED6 /* InpaintingViewController.swift */; };
+		DAEB5E5125C1CD4200F75ED6 /* ARGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E4825C1CD4200F75ED6 /* ARGBColor.swift */; };
+		DAEB5E5225C1CD4200F75ED6 /* EdgeConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E4925C1CD4200F75ED6 /* EdgeConnect.swift */; };
+		DAEB5E5325C1CD4200F75ED6 /* BackgroundSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E4A25C1CD4200F75ED6 /* BackgroundSelectionTableViewController.swift */; };
+		DAEB5E5925C1CDD300F75ED6 /* Inpainting.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E5625C1CDD300F75ED6 /* Inpainting.mlmodel */; };
+		DAEB5E5A25C1CDD300F75ED6 /* Edge.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E5725C1CDD300F75ED6 /* Edge.mlmodel */; };
+		DAEB5E5B25C1CDD300F75ED6 /* DeepLabV3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DAEB5E5825C1CDD300F75ED6 /* DeepLabV3.mlmodel */; };
+		DAEB5E5E25C1CE9100F75ED6 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEB5E5D25C1CE9100F75ED6 /* opencv2.framework */; };
+		DAEB5E6125C1CEB600F75ED6 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DAEB5E6025C1CEAA00F75ED6 /* libc++.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAEB5E2925C1CC9600F75ED6 /* ImageSegmentation&Inpainting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageSegmentation&Inpainting.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAEB5E2C25C1CC9600F75ED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAEB5E2E25C1CC9600F75ED6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAEB5E3025C1CC9600F75ED6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DAEB5E3325C1CC9600F75ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAEB5E3525C1CC9800F75ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAEB5E3825C1CC9800F75ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAEB5E3A25C1CC9800F75ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAEB5E4225C1CD4200F75ED6 /* CGImage+ArrayBGRA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage+ArrayBGRA.swift"; sourceTree = "<group>"; };
+		DAEB5E4325C1CD4200F75ED6 /* SegmentationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentationViewController.swift; sourceTree = "<group>"; };
+		DAEB5E4425C1CD4200F75ED6 /* CGImage&UIImage+Resize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImage&UIImage+Resize.swift"; sourceTree = "<group>"; };
+		DAEB5E4525C1CD4200F75ED6 /* SegmentClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentClass.swift; sourceTree = "<group>"; };
+		DAEB5E4625C1CD4200F75ED6 /* DrawingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingImageView.swift; sourceTree = "<group>"; };
+		DAEB5E4725C1CD4200F75ED6 /* InpaintingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InpaintingViewController.swift; sourceTree = "<group>"; };
+		DAEB5E4825C1CD4200F75ED6 /* ARGBColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARGBColor.swift; sourceTree = "<group>"; };
+		DAEB5E4925C1CD4200F75ED6 /* EdgeConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeConnect.swift; sourceTree = "<group>"; };
+		DAEB5E4A25C1CD4200F75ED6 /* BackgroundSelectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundSelectionTableViewController.swift; sourceTree = "<group>"; };
+		DAEB5E5625C1CDD300F75ED6 /* Inpainting.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inpainting.mlmodel; sourceTree = "<group>"; };
+		DAEB5E5725C1CDD300F75ED6 /* Edge.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Edge.mlmodel; sourceTree = "<group>"; };
+		DAEB5E5825C1CDD300F75ED6 /* DeepLabV3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = DeepLabV3.mlmodel; sourceTree = "<group>"; };
+		DAEB5E5D25C1CE9100F75ED6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		DAEB5E6025C1CEAA00F75ED6 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAEB5E6125C1CEB600F75ED6 /* libc++.tbd in Frameworks */,
+				DAEB5E5E25C1CE9100F75ED6 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +68,10 @@
 		DAEB5E2025C1CC9600F75ED6 = {
 			isa = PBXGroup;
 			children = (
+				DAEB5E5D25C1CE9100F75ED6 /* opencv2.framework */,
 				DAEB5E2B25C1CC9600F75ED6 /* ImageSegmentation&Inpainting */,
 				DAEB5E2A25C1CC9600F75ED6 /* Products */,
+				DAEB5E5F25C1CEAA00F75ED6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +88,40 @@
 			children = (
 				DAEB5E2C25C1CC9600F75ED6 /* AppDelegate.swift */,
 				DAEB5E2E25C1CC9600F75ED6 /* SceneDelegate.swift */,
-				DAEB5E3025C1CC9600F75ED6 /* ViewController.swift */,
 				DAEB5E3225C1CC9600F75ED6 /* Main.storyboard */,
+				DAEB5E4625C1CD4200F75ED6 /* DrawingImageView.swift */,
+				DAEB5E4925C1CD4200F75ED6 /* EdgeConnect.swift */,
+				DAEB5E4725C1CD4200F75ED6 /* InpaintingViewController.swift */,
+				DAEB5E4525C1CD4200F75ED6 /* SegmentClass.swift */,
+				DAEB5E4325C1CD4200F75ED6 /* SegmentationViewController.swift */,
+				DAEB5E4A25C1CD4200F75ED6 /* BackgroundSelectionTableViewController.swift */,
+				DAEB5E4825C1CD4200F75ED6 /* ARGBColor.swift */,
+				DAEB5E4225C1CD4200F75ED6 /* CGImage+ArrayBGRA.swift */,
+				DAEB5E4425C1CD4200F75ED6 /* CGImage&UIImage+Resize.swift */,
+				DAEB5E5525C1CDD300F75ED6 /* mlmodel */,
 				DAEB5E3525C1CC9800F75ED6 /* Assets.xcassets */,
 				DAEB5E3725C1CC9800F75ED6 /* LaunchScreen.storyboard */,
 				DAEB5E3A25C1CC9800F75ED6 /* Info.plist */,
 			);
 			path = "ImageSegmentation&Inpainting";
+			sourceTree = "<group>";
+		};
+		DAEB5E5525C1CDD300F75ED6 /* mlmodel */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB5E5625C1CDD300F75ED6 /* Inpainting.mlmodel */,
+				DAEB5E5725C1CDD300F75ED6 /* Edge.mlmodel */,
+				DAEB5E5825C1CDD300F75ED6 /* DeepLabV3.mlmodel */,
+			);
+			path = mlmodel;
+			sourceTree = "<group>";
+		};
+		DAEB5E5F25C1CEAA00F75ED6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAEB5E6025C1CEAA00F75ED6 /* libc++.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +194,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAEB5E3125C1CC9600F75ED6 /* ViewController.swift in Sources */,
+				DAEB5E5A25C1CDD300F75ED6 /* Edge.mlmodel in Sources */,
+				DAEB5E4E25C1CD4200F75ED6 /* SegmentClass.swift in Sources */,
+				DAEB5E5225C1CD4200F75ED6 /* EdgeConnect.swift in Sources */,
+				DAEB5E5325C1CD4200F75ED6 /* BackgroundSelectionTableViewController.swift in Sources */,
+				DAEB5E5025C1CD4200F75ED6 /* InpaintingViewController.swift in Sources */,
+				DAEB5E4C25C1CD4200F75ED6 /* SegmentationViewController.swift in Sources */,
 				DAEB5E2D25C1CC9600F75ED6 /* AppDelegate.swift in Sources */,
+				DAEB5E5B25C1CDD300F75ED6 /* DeepLabV3.mlmodel in Sources */,
 				DAEB5E2F25C1CC9600F75ED6 /* SceneDelegate.swift in Sources */,
+				DAEB5E4B25C1CD4200F75ED6 /* CGImage+ArrayBGRA.swift in Sources */,
+				DAEB5E5125C1CD4200F75ED6 /* ARGBColor.swift in Sources */,
+				DAEB5E4D25C1CD4200F75ED6 /* CGImage&UIImage+Resize.swift in Sources */,
+				DAEB5E4F25C1CD4200F75ED6 /* DrawingImageView.swift in Sources */,
+				DAEB5E5925C1CDD300F75ED6 /* Inpainting.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +356,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62TKMM5MWT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "ImageSegmentation&Inpainting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.nju.cs.zero.ImageSegmentation-Inpainting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -307,11 +381,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 62TKMM5MWT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "ImageSegmentation&Inpainting/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-all_load";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.edu.nju.cs.zero.ImageSegmentation-Inpainting";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

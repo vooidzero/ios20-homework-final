@@ -1,12 +1,13 @@
 //
 //  SceneDelegate.swift
-//  ImageSegmentation&Inpainting
+//  ImageSegmentation
 //
-//  Created by zero on 2021/1/28.
+//  Created by zero on 2021/1/24.
 //
 
 import UIKit
 
+@available(iOS 13.0, *)
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
