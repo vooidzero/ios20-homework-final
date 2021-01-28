@@ -50,7 +50,7 @@ mlmodel 文件来自：https://github.com/Ma-Dan/EdgeConnect-CoreML/tree/master/
 
 > ### OpenCV
 >
->  只使用到了 canny 和 inpaint 两个函数以及必要的数据结构转换，
+>  只使用到了 canny 和 inpaint 两个函数以及必要的类型转换，
 >
 >  编写代码时使用了完整的 OpenCV 库，占用空间大小达到了 400+MB；
 >
